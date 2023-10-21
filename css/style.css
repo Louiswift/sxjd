@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    min-width: 1190px;
+    position: relative;
+    justify-content: center;
+}
+.header .nav,
+.header_search .search_body{
+    width: 1190px;
+    background-color: transparent;
+}
+.header,
+.header_search{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    background-color: #f5f5f5;
+    justify-content: center;
+}
+a{
+    color: #3c3c3c;
+    text-decoration: none;
+}
+a:hover{
+    color: #f40;
+}
+ul{
+    list-style: none;
+}
+span{
+    font-size: 12px;
+    font-weight: 400;
+}
+.list{
+    font-size: 12px;
+    display: none;
+}
+.header .nav #list_fa li,
+.header .nav #list_fa li
+.header_search .search_body .search_btn #list_fa li{
+    float: none;
+    text-align: left;
+}
+#list_fa:hover .list,
+#right_ul1:hover .list,
+#list_fa:hover .list
+{
+    display: block;
+}
+#list_fa{
+    height: 0px;
+}
+.header .nav .left_nav li{
+    float: left;
+}
+.header .nav .right_nav{
+    float: right;
+}
+.header .nav .right_nav li{
+    float: right;
+}
+.header .nav span{
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #3c3c3c ;
+}
+.header_search{
+    width: 100%;
+    height: 200px;
+    background-color: #f40;
+}
+
+/* 搜索栏 */
+.header_search .search_body .log{
+    float: left;
+    width: 190px;
+    margin-left: 32px;
+}

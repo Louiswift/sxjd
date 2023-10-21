@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.width_all{
+    width: 1180px;
+    height: 158px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.more{
+    background-image: url(img/icon-more.png);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+#color_a a:hover{
+    color: #cc9;
+}
+#color_a2 a:hover,
+#color_a2 .new_nr p:hover{
+    color: #1974A1;
+}
+
+
+/* 第一部分 */
+
+.container .nav a{
+    color: #fff;
+}
+.log{
+    display: inline-block;
+    padding: 40px 0;
+}
+.nr{
+    display: inline-block;
+    float: right;
+    margin-top: -1px;
+    width: 600px;
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+}
+.nr span{
+    display: inline-block;
+    font-size: 14px;
+}
+.input_search{
+    float: right;
+    margin-top: 9px;
+    border-collapse: separate;
+    position: relative;
+    display: inline-table;
+    vertical-align: middle;
+    width: 197px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.input_search .input_conture{
+    border-radius: 4px;
+    width: 140px;
+    height: 30px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #555;
+    padding-left: 10px;
+    font-size: 14px;
+    /* line-height: 30px; */
+}
+.input_search .btn_search{
+    display: inline-block;
+}
+
+/* 第二部分 */
+
+.container .wrap{
+    width: 1200px;
+    margin: auto;
+    height: 58px;
+}
+.container .wrap #list li{
+    display: block;
+    float: left;
+    width: 120px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+}
+.container .wrap #list li a{
+    display: block;
+    font-size: 17px;
+}
+
+/* 第三部分 */
+
+.container .full{
+    min-width: 1890px;
+    position: relative;
+    height: 550px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+/* 第四部分 */
+
+.container .title_name{
+    height: 50px;
+}
+.container .title_name .title{
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+/* 第五部分 */
+
+.container .new_nr{
+    float: left;
+    width: 385px;
+    height: 335px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-top: 2px solid #063;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    overflow: hidden;
+    min-width: auto;
+}
+.container .new_nr .nr_he{
+    border-bottom:1px solid #EEE;
+    height:95px;
+    margin-top: 10px;
+}
+
+/* 第六部分 */
+
+.container .left_head,
+.container .mid_head,
+.container .right_head{
+    width: 386px;
+    height: 290px;
+}
+.container .left_head .head,
+.container .mid_head .head,
+.container .right_head .head{
+    width: 386px;
+    height: 47px;
+    line-height: 45px;
+    border-bottom: 1px solid #DDD;
+}
+.container .nr_six li{
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+/* 第七部分 */
+.container .img li{
+    float: left;
+    margin-left: 10px;
+    width: 240px;
+    height: 100px;
+}
+.container .img img{
+    width: 240px;
+    height: 100px;
+}
+
+/* 第八部分 */
+
+.container .width_all .one_list{
+    float: left;
+    font-size: 14px;
+}
+
+.container .width_all .one_list li{
+    width: 145px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.container .width_all .ewm li{
+    width: 80px;
+    height: 120px;
+    float: left;
+    margin-left: 30px;
+}
+
+/* 第九部分 */
+.container  .end_nr p{
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+}
+.container .end_nr p a{
+    color: #fff;
+    display: inline-block;
+}
+.container .fwl span{
+    color: #fff;
+    font-size: 14px;
+}
+.container .qh,
+.container .fwl{
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 19px;
+    text-align: center;
+}
+.container .qh a{
+    display: inline-block;
+    width: 42px;
+    height: 21px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
