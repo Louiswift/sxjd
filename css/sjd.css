@@ -19,7 +19,6 @@ a{
 ul{
     list-style: none;
 }
-
 .more{
     background-image: url(img/icon-more.png);
     display: inline-block;
@@ -28,7 +27,6 @@ ul{
     vertical-align: middle;
     margin-top: -2px;
 }
-
 #color_a a:hover{
     color: #cc9;
 }
@@ -211,6 +209,22 @@ ul{
 .container .img img{
     width: 240px;
     height: 100px;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+    100%{
+        transform: translateX(-1180px);
+        -webkit-transform: translateX(-1180px);
+        -moz-transform: translateX(-1180px);
+        -ms-transform: translateX(-1180px);
+        -o-transform: translateX(-1180px);
+}
 }
 
 /* 第八部分 */
