@@ -116,7 +116,23 @@ ul{
     display: block;
     font-size: 17px;
 }
-
+.container .wrap #hover_ul{
+    height: auto;
+    position: absolute;
+    z-index: 2;
+}
+.container .wrap #list #hover_ul li{
+    float: none;
+    height: 50px;
+    line-height: 50px;
+}
+.container .wrap #hover_ul{
+    display: none;
+}
+.container .wrap li:hover #hover_ul{
+    display: block;
+    background-color: rgb(255,255,255,0.9);
+}
 .container .wrap #list a:hover{
     background-color: #007cc8;
     color: #fff;
@@ -128,12 +144,6 @@ ul{
     width: 100%;
     height: 550px;
     overflow: hidden;
-}
-.container .full a{
-    z-index: 9999;
-    width: 100%;
-    height: 550px;
-    background: url(/img/ddd.jpg) center no-repeat;
 }
 
 /* 第四部分 */
