@@ -117,12 +117,23 @@ ul{
     font-size: 17px;
 }
 
+.container .wrap #list a:hover{
+    background-color: #007cc8;
+    color: #fff;
+}
+
 /* 第三部分 */
 
 .container .full{
     width: 100%;
     height: 550px;
     overflow: hidden;
+}
+.container .full a{
+    z-index: 9999;
+    width: 100%;
+    height: 550px;
+    background: url(/img/ddd.jpg) center no-repeat;
 }
 
 /* 第四部分 */
