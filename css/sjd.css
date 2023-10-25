@@ -63,7 +63,7 @@ ul{
     border-collapse: separate;
     display: inline-table;
     vertical-align: middle;
-    width: 197px;
+    width: 210px;
     height: 30px;
     background-color: #fff;
     border-radius: 4px;
@@ -74,7 +74,7 @@ ul{
 }
 .input_search .input_conture{
     border-radius: 4px;
-    width: 147px;
+    width: 150px;
     height: 30px;
     border: 1px solid #fff;
     -webkit-border-radius: 4px;
@@ -91,7 +91,7 @@ ul{
     height: 30;
     display: inline-block;
     vertical-align: middle;
-    text-align: center;    
+    text-align: center; 
 }
 
 
@@ -199,7 +199,7 @@ ul{
     font-size: 15px;
 }
 
-/* 第七部分 */
+/* 第八部分 */
 .container .img li{
     float: left;
     margin-left: 10px;
@@ -227,7 +227,7 @@ ul{
 }
 }
 
-/* 第八部分 */
+/* 第九部分 */
 
 .container .width_all .one_list{
     float: left;
@@ -248,7 +248,7 @@ ul{
     margin-left: 30px;
 }
 
-/* 第九部分 */
+/* 第十部分 */
 .container  .end_nr p{
     height: 24px;
     line-height: 24px;
